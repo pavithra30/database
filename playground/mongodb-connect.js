@@ -20,7 +20,7 @@ db.collection('Users').insertOne({
     return console.log('unable to insert user',err);
   }
   console.log(result.ops);
-});
+}); 
 
 
   db.close();
